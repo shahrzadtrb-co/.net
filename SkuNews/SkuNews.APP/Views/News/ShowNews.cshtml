@@ -1,0 +1,32 @@
+﻿@model SkuNews.Data.Page
+
+@{
+    ViewBag.Title = "ShowNews";
+}
+<style>
+    .single-news img {
+        max-width: 100%;
+    }
+</style>
+<ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">خانه </a></li>
+    <li class="breadcrumb-item"><a href="/Archive">اخبار </a></li>
+    <li class="breadcrumb-item active"> @Model.Title </li>
+</ul>
+
+<section class="single-news border-radius">
+    <header>
+        <h2> @Model.Title </h2> <span> <i class="fa fa-calendar"></i>  انتشار : @Model.CreateDate.ToShamsi()</span></header>
+    <article>
+        <p>
+            @Model.Description
+        </p>
+        <di>
+            <img src="/PageImages/@Model.ImageName" class="thumbnail" style="max-width: 100%; margin: 10px auto"/>
+        </di>
+        <p>
+            @Html.Raw(Model.Text)
+        </p>
+    </article>
+</section>
+

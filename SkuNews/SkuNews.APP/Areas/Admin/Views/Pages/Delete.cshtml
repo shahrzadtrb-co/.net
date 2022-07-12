@@ -1,0 +1,22 @@
+﻿@model SkuNews.Data.Page
+
+@{
+    ViewBag.Title = "حذف خبر";
+}
+
+
+<h3>آیا از حذف این خبر مطمئن هستید؟</h3>
+<div>
+
+    <br />
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="حذف" class="btn btn-danger" /> |
+            @Html.ActionLink("بازگشت به لیست اخبار", "Index")
+        </div>
+    }
+</div>

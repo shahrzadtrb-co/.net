@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkuNews.APP", "SkuNews.APP\SkuNews.APP.csproj", "{90390974-F2AC-4D87-B188-ADD683393139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkuNews.Data", "SkuNews.Data\SkuNews.Data.csproj", "{9DF488E7-75B5-483C-8B75-012273ECA2FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90390974-F2AC-4D87-B188-ADD683393139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90390974-F2AC-4D87-B188-ADD683393139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90390974-F2AC-4D87-B188-ADD683393139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90390974-F2AC-4D87-B188-ADD683393139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF488E7-75B5-483C-8B75-012273ECA2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF488E7-75B5-483C-8B75-012273ECA2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF488E7-75B5-483C-8B75-012273ECA2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF488E7-75B5-483C-8B75-012273ECA2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69D67F95-1D16-4EA6-A000-4A22D6F50530}
+	EndGlobalSection
+EndGlobal
